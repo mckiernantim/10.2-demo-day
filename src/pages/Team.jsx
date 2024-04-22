@@ -15,7 +15,13 @@ const Team = () => {
     }, [name])
     return (
         <>
-            <h1>{team?.team}</h1>
+            { team && 
+                <h1>
+                    <a href={team?.url} target="_blank" id="app-link">
+                        {team?.team}
+                    </a>
+                </h1> 
+            }
             <div className="fellow-links">
             {
                 team && team.members.map((fellow, i) => (
