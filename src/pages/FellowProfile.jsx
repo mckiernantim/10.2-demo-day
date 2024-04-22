@@ -24,12 +24,12 @@ const FellowProfile = () => {
                 fellowInfo ?
                 <div>
                     <h1 style={{ letterSpacing: "4px" }}>{fellowInfo.name.toUpperCase()}</h1>
-                    <img src={`/${fellowInfo?.image}`} />
+                    <img className="profile-pic" src={`/${fellowInfo?.image}`} />
                     
                     <p>{fellowInfo.bio}</p>
 
                     <div className="ul">
-                        <li className='g'>
+                        <li className='icon'>
                             
                         <a href={fellowInfo.github} target="_blank">
                             <FontAwesomeIcon icon={faGithub} 
@@ -37,7 +37,7 @@ const FellowProfile = () => {
                             size={"4x"} />
                             </a>
                         </li>
-                        <li className="l">
+                        <li className="icon">
                             <a href={fellowInfo.linkedin} target="_blank">
                             <FontAwesomeIcon icon={faLinkedin} 
                             color={"black"}
