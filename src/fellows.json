@@ -1,6 +1,7 @@
 [
     {
         "team": "Where's My Ice Cream",
+        "url": " https://wheresmyicecream.netlify.app/",
         "logo": "assets/wmic.png",
         "members": [
             {
@@ -22,6 +23,7 @@
     {
         "team": "GoalHive",
         "logo": "assets/goalhive.png",
+        "url": "",
         "members": [
             {
                 "name": "Shaka Livingstone",
@@ -97,6 +99,7 @@
     {
         "team": "FreshStart",
         "logo": "assets/freshstart.png",
+        "url": "https://freshstartonestop.netlify.app/",
         "members": [
             {
                 "name": "Jesse Chong",
