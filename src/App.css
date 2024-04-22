@@ -3,7 +3,7 @@
 
 body {
   background-color: var(--purple,#4343EA);
-  color: whitesmoke;
+  background-color: whitesmoke !important;
   font-family: Roboto !important;
 }
 
@@ -69,6 +69,11 @@ li {
   justify-content: space-around;
 }
 
+.team {
+  display: flex;
+  flex-direction: column;
+}
+
 
 
 #pursuit-logo {
@@ -92,4 +97,38 @@ li {
   color: #212529;
   background-color: #e0a800;
   border-color: #d39e00;
+}
+
+.show-hide {
+  display: none;
+}
+
+
+@media (min-width: 768px) {
+  .team {
+    flex-direction: row;
+  }
+
+  .show-hide {
+    display: block;
+  }
+
+  .square {
+    width: 120px;
+    height: 120px;
+    margin: 5px;
+  }
+
+  .fellow-link {
+    width: 30px;
+  }
+
+  img {
+    width: 50%;
+  }
+
+  .text-overlay {
+    width: 50%;
+    translate: 50%;
+  }
 }

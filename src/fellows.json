@@ -42,7 +42,7 @@
                 "github": "https://github.com/rboyce212",
                 "linkedin": "https://www.linkedin.com/in/richard-boyce-nyc/",
                 "bio": "After hopping from east coast to west coast and back again, I settled here in New York City and spent the last 16 years working for two tech start-ups in the restaurant delivery app space: campusfood/grubHub and delivery.com",
-                "image": "assets/rich_boyce.jpg"
+                "image": "assets/rich_boyce.png"
             },
             {
                 "name": "Tyrell Kamara-Oliver",
@@ -90,7 +90,7 @@
                     "github": "",
                     "linkedin": "",
                     "bio": "",
-                    "image": ""
+                    "image": "assets/tyller_mendoza.jpg"
                 }
             ]
     },

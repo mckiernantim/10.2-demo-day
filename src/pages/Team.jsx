@@ -16,6 +16,7 @@ const Team = () => {
     return (
         <>
             <h1>{team?.team}</h1>
+            <div className="fellow-links">
             {
                 team && team.members.map((fellow, i) => (
                     <Link key={i} to={`/${name}/${fellow.name}`} className="fellow-link">
@@ -26,6 +27,7 @@ const Team = () => {
                     </Link>
                 ))
             }
+            </div>
             <Link to={`/`}>
                 <Button variant="warning" id="back">Back</Button>
             </Link>
