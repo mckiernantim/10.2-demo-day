@@ -1,9 +1,10 @@
 import './App.css'
 import { Link, Routes, Route } from 'react-router-dom'
-import Home from './pages/Home'
+import Landing from './pages/Landing'
 import Team from './pages/Team'
 import FellowProfile from './pages/FellowProfile'
 
+import Home from './pages/Home'
 function App() {
 
 
@@ -13,9 +14,10 @@ function App() {
         <img id="pursuit-logo" src="assets/pursuit.png"/>
       </Link>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/:name" element={<Team />} />
-        <Route path="/:name/:fellow" element={<FellowProfile />} />
+        <Route path="/" element={<Landing />} />
+        <Route path="/:className" element ={<Home /> } />
+        <Route path="/:className/:name" element={<Team />} />
+        <Route path="/:className/:name/:fellow" element={<FellowProfile />} />
       </Routes>
     </div>
   )

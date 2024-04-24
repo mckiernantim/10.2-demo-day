@@ -1,0 +1,157 @@
+[
+    {
+        "team": "Bike The Big Apple",
+        "url": " https://wheresmyicecream.netlify.app/",
+        "logo": "assets/wmic.png",
+        "members": [
+            {
+                "name": "Keith Camacho",
+                "github": "https://github.com/Nugget-Meister",
+                "linkedin": "https://www.linkedin.com/in/keithcamacho/",
+                "bio": " I love creating art and automating processes. If it doesn't work, write until it does.",
+        
+                "image": "assets/aisha_kleemoff.jpeg"
+            },
+            {
+                "name": "Jalal Jonaid",
+                "github": "https://github.com/JalalJonaid",
+                "linkedin": "http://www.linkedin.com/in/jalal-jonaid-071252103",
+                "bio": "Loves to make things look beautiful.",
+                "image": "assets/bethany_torres.jpg"
+            },
+            {
+                "name": "Davon Bridgett",
+                "github": "https://github.com/DaviiJones",
+                "linkedin": "https://www.linkedin.com/in/davongbridgettusa",
+                "bio": "Pushing myself to make a difference.",
+                "image": "assets/bethany_torres.jpg"
+            }
+        ]
+    },
+    {
+        "team": "Tidbits",
+        "logo": "assets/goalhive.png",
+        "url": "https://tidbit-team.netlify.app/",
+        "members": [
+            {
+                "name": "Joseph Carter",
+                "github": "https://github.com/Joseph-Carter",
+                "linkedin": "https://www.linkedin.com/in/josephaecarter/",
+                "bio": "I want to create tech that brings good experiences and pushes us forward.",
+                "image": "assets/shaka_livingstone.jpg"
+            },
+            {
+                "name": "Dwayne Jones",
+                "github": "https://github.com/JackieC1993",
+                "linkedin": "https://www.linkedin.com/in/jackiecheung93/",
+                "bio": "I am a Queen based native that likes to travel and meet new people.",
+                "image": "assets/jackie_cheung.jpg"
+            },
+            {
+                "name": "Nicole Slater",
+                "github": "https://github.com/nicoleslater",
+                "linkedin": "https://www.linkedin.com/in/nicole-slater-2a9598123/",
+                "bio": "I want to continuously learn and collaborate solutions that make a difference.",
+                "image": "assets/rich_boyce.png"
+            }
+        ]
+    },
+    {
+            "team": "AceIt",
+            "logo": "assets/village.png",
+            "url": "https://aceitapp.netlify.app/",
+            "members": [
+                {
+                    "name": "Alexander Tsklidis",
+                    "github": "https://github.com/JBMontes",
+                    "linkedin": "https://www.linkedin.com/in/jeremy-b-montes/",
+                    "bio": "Lifesaver, musician, gamer, and software engineer seeking optimal solutions to complex problems.",
+                    "image": "assets/jeremy_montes.jpg"
+                },
+                {
+                    "name": "Anthony Huarneck",
+                    "github": "https://github.com/anthuarneck",
+                    "linkedin": "https://www.linkedin.com/in/anthonyhuarneck/",
+                    "bio": "Former uber driver, pursuing the dream to transform thoughts into reality.",
+                    "image": "assets/rubens_lombard.jpg"
+                },
+                {
+                    "name": "Michael Kleemoff",
+                    "github": "https://github.com/MichaelKleemoff",
+                    "linkedin": "https://www.linkedin.com/in/michael-kleemoff-jr/",
+                    "bio": "Cryptocurrency enthusiast and aspiring software engineer, eager to elevate my coding skills and secure a position in the dynamic tech industry.",
+                    "image": "assets/oscar_quintanilla.jpg"
+                },
+                {
+                    "name": "Aisha Kleemoff",
+                    "github": "https://github.com/AishaCKleemoff",
+                    "linkedin": "https://www.linkedin.com/in/aisha-kleemoff-16b49122b/",
+                    "bio": "A graduate student trained in Film and Broadcasting, and well-versed in animation, short film production, narrative storytelling, video and SFX editing, poetry, and creative writing.  I'm an aspiring software engineer looking to develop intuitive and life-changing apps that fuse all multimedia forms.",
+                    "image": "assets/gaspare_carollo.jpg"
+                }
+            ]
+    },
+    {
+        "team": "Legislink",
+        "logo": "assets/freshstart.png",
+        "url": "https://freshstartonestop.netlify.app/",
+        "members": [
+            {
+                "name": "Jesse Chong",
+                "github": "https://github.com/Jesse-Chong",
+                "linkedin": "https://www.linkedin.com/in/jessemchong/",
+                "bio": "Full stack software engineer willing to learn anything until I find my niche.",
+                "image": "assets/jesse_chong.jpg"
+            },
+            {
+                "name": "Natyka Callwood",
+                "github": "https://github.com/NatykaC",
+                "linkedin": "https://www.linkedin.com/in/natykajcallwood",
+                "bio": "Twin mama, pursuing my passion for creation by building apps that help improve our daily lives.",
+                "image": "assets/natyka_callwood.jpg"
+            },
+            {
+                "name": "Jameel Ibrahim",
+                "github": "https://github.com/Jameel914",
+                "linkedin": "https://www.linkedin.com/in/jameel-ibrahim-8a7a6b155/",
+                "bio": "An Uber driver, transitioning from navigating streets to navigating code.",
+                "image": "assets/jameel_ibraham.jpg"
+            },
+            {
+                "name": "Christine Marchese",
+                "github": "https://github.com/ChristineMarchese",
+                "linkedin": "https://www.linkedin.com/in/christine-m-36097a242/",
+                "bio": "Foreign Language lover pursuing a career as a Full Stack Developer.",
+                "image": "assets/christine_marchese.jpg"
+            }
+        ]
+    },
+    {
+        "team": "CourtIQ",
+        "url": "https://neon-dragon-3dc023.netlify.app/",
+        "logo": "assets/impactify.png",
+        "members": [
+            {
+                "name": "Erick Tolentino",
+                "github": "https://github.com/XavierRice",
+                "linkedin": "https://www.linkedin.com/in/xavier0rice/",
+                "bio": "A professional creative from Kansas, now a Brooklyn-based tech enthusiast, skilled in React, JavaScript, HTML5, and more. With over 18 years of experience, adept in team building and storytelling, ready to bring creativity and adaptability to the tech world.",
+                "image": "assets/xavier_rice.jpg"
+            },
+            {
+                "name": "Elisaul Bautista",
+                "github": "https://github.com/Smille007",
+                "linkedin": "https://www.linkedin.com/in/daryna-v-17469169/",
+                "bio": "Fintech enthusiast, political activist and young web developer.",
+                "image": "assets/daryna_vershinina.jpg"
+            },
+            {
+                "name": "Joram Mercado",
+                "github": "https://github.com/jorammercado",
+                "linkedin": "https://www.linkedin.com/in/jorammercado",
+                "bio": "Engineering graduate finding new passions in Software Development.",
+                "image": "assets/marcia_foster.jpg"
+            }
+        ]
+    }
+]
