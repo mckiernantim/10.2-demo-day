@@ -13,7 +13,7 @@ const Team = () => {
             return allTeams.find((team) => team.team === name)
         })
     }, [name])
-
+    console.log(team)
     return (
         <>
             { team && 
@@ -27,7 +27,7 @@ const Team = () => {
             {
                 team && team.members.map((fellow, i) => (
                     <Link key={i} to={`${fellow.name}`} className="fellow-link">
-                        <img src={fellow.image} />
+                        <img src={`/${fellow.image}`} alt={fellow.image}/>
                         <div className="text-overlay">
                             <p>{fellow.name.toUpperCase()}</p>
                         </div>

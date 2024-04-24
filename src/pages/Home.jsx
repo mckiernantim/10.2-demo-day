@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
               ))
             }
-            <h3>BLACKROCK | APRIL 23, 2024</h3>
+            <h3>BLACKROCK | April {className === "10.2" ? "22nd" : "23rd"}</h3>
           </div>
         </>
     );
