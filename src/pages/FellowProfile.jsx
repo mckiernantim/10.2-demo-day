@@ -1,5 +1,6 @@
 import { useState, useEffect } from 'react';
-import teams from '../fellows.json'
+import tenOneInfo from "../tenOneFellows.json"
+import tenTwoInfo from "../tenTwoFellows.json"
 import { useParams, Link } from 'react-router-dom'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons';
@@ -8,15 +9,18 @@ import Button from 'react-bootstrap/Button';
 
 const FellowProfile = () => {
     const [fellowInfo, setFellowInfo] = useState(null)
-    const { name, fellow } = useParams()
+    const { name, fellow, className } = useParams()
 
+
+    const teams = className === "10.1" ? tenOneInfo : tenTwoInfo;
+  
 
     useEffect(() => {
         const team = teams.find(team => team.team === name)
         setFellowInfo(() => {
             return team.members.find(f => f.name === fellow)
         })
-    }, [fellowInfo]) 
+    }, [fellowInfo, teams, name, fellow]) 
 
     return (
         <>
@@ -45,7 +49,7 @@ const FellowProfile = () => {
                             </a>
                         </li>
                     </div>
-                    <Link to={`/${name}`}>
+                    <Link to={`/${className}/${name}`}>
                         <Button variant="warning" id="back">Back</Button>
                     </Link>
                     

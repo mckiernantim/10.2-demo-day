@@ -1,18 +1,19 @@
 import { useState, useEffect } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import teams from '../fellows.json'
+import tenOneInfo from "../tenOneFellows.json"
+import tenTwoInfo from "../tenTwoFellows.json"
 import Button from 'react-bootstrap/Button';
 
 const Team = () => {
     const [team, setTeam] = useState(null)
-    const { name } = useParams()
-
-
+    const { name, className } = useParams()
+    const allTeams = className === "10.1" ? tenOneInfo : tenTwoInfo
     useEffect(() => {
         setTeam(() => {
-            return teams.find((team) => team.team === name)
+            return allTeams.find((team) => team.team === name)
         })
     }, [name])
+
     return (
         <>
             { team && 
@@ -25,7 +26,7 @@ const Team = () => {
             <div className="fellow-links">
             {
                 team && team.members.map((fellow, i) => (
-                    <Link key={i} to={`/${name}/${fellow.name}`} className="fellow-link">
+                    <Link key={i} to={`${fellow.name}`} className="fellow-link">
                         <img src={fellow.image} />
                         <div className="text-overlay">
                             <p>{fellow.name.toUpperCase()}</p>
@@ -34,7 +35,7 @@ const Team = () => {
                 ))
             }
             </div>
-            <Link to={`/`}>
+            <Link to={`/${className}`}>
                 <Button variant="warning" id="back">Back</Button>
             </Link>
         </>
