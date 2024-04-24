@@ -23,7 +23,7 @@
     {
         "team": "GoalHive",
         "logo": "assets/goalhive.png",
-        "url": "",
+        "url": "https://main--zesty-hotteok-c8a3b0.netlify.app/login",
         "members": [
             {
                 "name": "Shaka Livingstone",
@@ -58,6 +58,7 @@
     {
             "team": "Village",
             "logo": "assets/village.png",
+            "url": "https://village-app.netlify.app/",
             "members": [
                 {
                     "name": "Jeremy Montes",
